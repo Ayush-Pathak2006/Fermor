@@ -1,6 +1,6 @@
 # Fermor homepage: a redesign concept
 
-**Live site:** _add the Vercel URL here after deploying_
+**Live site:** _[Live Demo](https://fermor-lime.vercel.app/)_
 
 ![The homepage on desktop](docs/screenshots/desktop-top.png)
 
