@@ -1,0 +1,9 @@
+node_modules
+dist
+package-lock.json
+.audit
+screenshots
+docs/screenshots
+
+# plan.md is the frozen original spec: no tool may rewrite it.
+plan.md
