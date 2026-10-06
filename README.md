@@ -6,7 +6,6 @@
 
 <img src="docs/screenshots/mobile-top.png" alt="The homepage on a phone" width="300">
 
-![The app section on desktop](docs/screenshots/app-section.png)
 
 ## Project structure
 
@@ -23,7 +22,7 @@ src/
     mockups/       the phone and its four app screens
   dev/             a development-only style guide
 public/            logo, favicon, social preview image
-docs/              brand audit, decisions log, screenshots
+docs/screenshots/  screenshots used in this README
 scripts/           font check and link check
 ```
 
@@ -64,7 +63,7 @@ While `npm run dev` is running, a style guide (colors, type scale, buttons, numb
 
 **The hero shows the product working.** Instead of a slogan and a stats strip, the first thing you see is a real calculation (a SIP, a home loan or PPF) with its result, the split between what you put in and what you earn, and the formula behind it. That is Fermor's own "show the full math" idea, made visible.
 
-**It still looks like Fermor.** I kept Fermor's logo and color family, the mint green from your buttons and logo, so the page does not look foreign to you. The layout, section order, components and copy are new. The full brand audit is in [docs/brand-audit.md](docs/brand-audit.md).
+**It still looks like Fermor.** I kept Fermor's logo and color family, the mint green from your buttons and logo, so the page does not look foreign to you. The layout, section order, components and copy are new. 
 
 **Links go to your website.** I did not rebuild the calculators, the fund explorer or the guides. Every tool link opens the real page on fermor.in in a new tab, marked with ↗. App products that are not launched yet (Market, Portfolio, Ask, ACT, For Kids) open a short "coming soon" dialog instead of a dead link.
 
@@ -74,4 +73,3 @@ While `npm run dev` is running, a style guide (colors, type scale, buttons, numb
 
 **Built to WCAG standards.** The whole page works with a keyboard alone: a skip link, a visible focus ring on every control, menus and dialogs that close with Escape and return focus to where you were. Colors meet WCAG AA contrast, the layout works from small phones to wide screens, and animation is switched off for people who ask their system for reduced motion.
 
-The reasoning behind each choice, in more detail, is in [docs/decisions.md](docs/decisions.md).
